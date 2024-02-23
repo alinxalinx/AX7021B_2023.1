@@ -1,0 +1,38 @@
+set_property PACKAGE_PIN T21	 [get_ports  adc_ch1_clk]
+set_property PACKAGE_PIN U21	 [get_ports {adc_ch1_data[0]}]
+set_property PACKAGE_PIN U20	 	 [get_ports {adc_ch1_data[1]}]
+set_property PACKAGE_PIN V20	 	 [get_ports {adc_ch1_data[2]}]
+set_property PACKAGE_PIN Y19	  [get_ports {adc_ch1_data[3]}]
+set_property PACKAGE_PIN AA19  [get_ports {adc_ch1_data[4]}]
+set_property PACKAGE_PIN J21	  [get_ports {adc_ch1_data[5]}]
+set_property PACKAGE_PIN J22	  [get_ports {adc_ch1_data[6]}]
+set_property PACKAGE_PIN K21	  [get_ports {adc_ch1_data[7]}]
+set_property PACKAGE_PIN J20	  [get_ports {adc_ch1_data[8]}]
+set_property PACKAGE_PIN P16	 [get_ports {adc_ch1_data[9]}]
+set_property PACKAGE_PIN R16	 [get_ports {adc_ch1_data[10]}]
+set_property PACKAGE_PIN M17	  [get_ports {adc_ch1_data[11]}]
+
+
+set_property PACKAGE_PIN W21	      [get_ports  adc_ch0_clk]
+set_property PACKAGE_PIN P20	     	[get_ports {adc_ch0_data[1]}]
+set_property PACKAGE_PIN P21	     	[get_ports {adc_ch0_data[0]}]
+set_property PACKAGE_PIN T19	     	 [get_ports {adc_ch0_data[3]}]
+set_property PACKAGE_PIN R19	     	 [get_ports {adc_ch0_data[2]}]
+set_property PACKAGE_PIN P15	     [get_ports {adc_ch0_data[5]}]
+set_property PACKAGE_PIN N15	     [get_ports {adc_ch0_data[4]}]
+set_property PACKAGE_PIN M16	     	 [get_ports {adc_ch0_data[7]}]
+set_property PACKAGE_PIN M15	      [get_ports {adc_ch0_data[6]}]
+set_property PACKAGE_PIN AB19      [get_ports {adc_ch0_data[9]}]
+set_property PACKAGE_PIN AB20      [get_ports {adc_ch0_data[8]}]
+set_property PACKAGE_PIN W22	      [get_ports {adc_ch0_data[11]}]
+set_property PACKAGE_PIN V22	      [get_ports {adc_ch0_data[10]}]
+
+
+
+set_property IOSTANDARD LVCMOS33 [get_ports adc_ch0_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports {adc_ch0_data[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_ch1_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports {adc_ch1_data[*]}]
+
+set_property IOB true [get_ports adc_ch1_data[*]]
+set_property IOB true [get_ports adc_ch0_data[*]]
