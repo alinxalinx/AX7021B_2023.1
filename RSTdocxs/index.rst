@@ -17,6 +17,12 @@ ZYNQ 7000 开发平台
    7021B_S1_RSTdocument_CN/00_文档版本履历_CN
 
 .. toctree::
+   :maxdepth: 3
+   :caption: 用户手册
+
+   AX7021B_UserManual_CN/AX7021B_UserManual
+
+.. toctree::
    :maxdepth: 2
    :caption: AX7021B型号板卡S1_FPGA教程
 
